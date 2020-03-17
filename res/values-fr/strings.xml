@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageMatch</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="help">Cliquez sur les images doubles</string>
+    <string name="misses">Ratés:</string>
+    <string name="scramble">Mélanger</string>
+    <string name="matches">Parties:</string>
+    <string name="about">Description</string>
+    <string name="rotate">Tourner</string>
+    <string name="zero">Zero</string>
+    <string name="instructions">Le but du jeu est de cliquer sur les deux images correspondant tout en faisant le moins d\'erreurs possibles.</string>
+    <string name="duplicate_toast">Trouver l\'autre double.</string>
+    <string name="credits">Créé par:</string>
+    <string name="author1">Julien Comtois</string>
+    <string name="author2">Joey Campanelli</string>
+    <string name="author3">Frank Birikundavyi</string>
+    <string name="title_activity_about">Description</string>
+    <string name="howtoplay">Comment jouer:</string>
+    <string name="totalmatches">Parties totales:</string>
+    <string name="totalmisses">Manque totales:</string>
+    <string name="matchesctr">0</string>
+    <string name="missesctr">0</string>
+    <string name="totalmatchesctr">0</string>
+    <string name="totalmissesctr">0</string>
+    <string name="windialog">Tu as gagné! Cliquez mélanger pour jouer encore.</string>
+    <string name="losetoast">Aucune combinaison, essayez de nouveau!</string>
+    <string name="dupefound">Trouver l\'autre double.</string>
+    <string name="windialogtitle">Tu as gagné</string>
+    <string name="winpositivebtn">D\'accord!</string>
+
+</resources>

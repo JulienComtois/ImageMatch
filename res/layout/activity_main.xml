@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/help"
+        android:textSize="@dimen/mainTextSize" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgbtn1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgbtn4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgbtn7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <ImageButton
+                android:id="@+id/imgbtn9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkMatch"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/misses"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:id="@+id/misses_ctr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/missesctr"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/matches"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:id="@+id/matches_ctr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/matchesctr"
+            android:textSize="@dimen/mainTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalmisses"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:id="@+id/total_misses_ctr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalmissesctr"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalmatches"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:id="@+id/total_matches_ctr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalmatchesctr"
+            android:textSize="@dimen/mainTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:onClick="scramble"
+            android:text="@string/scramble" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:onClick="about"
+            android:text="@string/about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:onClick="rotate"
+            android:text="@string/rotate" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:onClick="zero"
+            android:text="@string/zero" />
+    </LinearLayout>
+
+</LinearLayout>
